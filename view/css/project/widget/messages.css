@@ -17,7 +17,7 @@
  *
  */
 div.project-messages div.message {
-    background: #e7e7e7 url('/view/css/message/beak/1.png') no-repeat left top;
+    background: #e7e7e7 url('../../message/beak/1.png') no-repeat left top;
     margin-left: 60px;
     overflow: visible;
     position: relative;
@@ -25,7 +25,7 @@ div.project-messages div.message {
 }
 
 div.project-messages div.child{
-    background: #e7e7e7 url('/view/css/message/beak/1.png') no-repeat left top;
+    background: #e7e7e7 url('../../message/beak/1.png') no-repeat left top;
     margin-left: 130px;
     padding: .8em 1em .8em 1.5em;
     overflow: visible;
@@ -33,7 +33,7 @@ div.project-messages div.child{
 }
 
 div.project-messages div.owner {
-    background: #e9f4ea url('/view/css/message/beak/2.png') no-repeat left top !important;
+    background: #e9f4ea url('../../message/beak/2.png') no-repeat left top !important;
 }
 
 div.project-messages div.message + div.message,

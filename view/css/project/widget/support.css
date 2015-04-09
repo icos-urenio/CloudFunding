@@ -78,11 +78,11 @@ div.widget.project-support dl dt.minimum {
 
 
 div.widget.project-support dl dt.optimum {
-    background-image: url('/view/css/project/widget/support/here-optimum.png');
+    background-image: url('../../project/widget/support/here-optimum.png');
 }
 
 div.widget.project-support dl dt.minimum {
-    background-image: url('/view/css/project/widget/support/here-minimum.png');
+    background-image: url('../../project/widget/support/here-minimum.png');
     clear: left;
 }
 
@@ -94,12 +94,12 @@ div.widget.project-support dl dd.minimum {
     height: 45px;
     margin-top: 0;
     padding-right: 28px;
-    background: url('/view/css/euro/light-violet/l.png') no-repeat right center;
+    background: url('../../euro/light-violet/l.png') no-repeat right center;
     display: inline-block;
 }
 
 div.widget.project-support dl dd.minimum {
-    background-image: url('/view/css/euro/violet/l.png');
+    background-image: url('../../euro/violet/l.png');
 }
 
 div.widget.project-support dl dd.optimum strong{
@@ -127,7 +127,7 @@ div.widget.project-support dl dt.reached {
 
 div.widget.project-support dl dd.reached {        
     padding-right: 20px;
-    background: url('/view/css/euro/violet/s.png') no-repeat right top;
+    background: url('../../euro/violet/s.png') no-repeat right top;
     display: inline-block;
 	color:#96238F;
 }
@@ -156,7 +156,7 @@ body.project-show div#main > div.side > div.widget h3.title.ronda {
 }
 
 div.widget.project-support div.graph {
-    background: url('/view/css/project/widget/support/over.png') no-repeat center top;
+    background: url('../../project/widget/support/over.png') no-repeat center top;
     width: 26px;
     overflow: visible;            
     border-bottom: 2px solid #20B3B2;
@@ -174,18 +174,18 @@ div.widget.project-support div.graph > div.minimum {
 }
 
 div.widget.project-support div.graph > div.optimum {
-    background: url('/view/css/project/widget/support/optimum.png') no-repeat center top;
+    background: url('../../project/widget/support/optimum.png') no-repeat center top;
     height: 45px;
 }
 
 div.widget.project-support div.graph > div.minimum {    
-    background: url('/view/css/project/widget/support/minimum.png') no-repeat center top;
+    background: url('../../project/widget/support/minimum.png') no-repeat center top;
     position: relative;    
     min-height: 145px !important;
 }
 
 div.widget.project-support div.graph > div.minimum > div.done {
-    background: url('/view/css/project/widget/support/done.png') no-repeat bottom;
+    background: url('../../project/widget/support/done.png') no-repeat bottom;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -197,7 +197,7 @@ div.widget.project-support div.meter.ver div.graph .minimum .done {
 }
 
 div.widget.project-support div.graph > div.minimum > div.done strong {
-    background: url('/view/css/project/widget/support/marker.png') no-repeat center center;
+    background: url('../../project/widget/support/marker.png') no-repeat center center;
     width: 30px;  
     padding: 0 8px 0 4px;
     height: 20px;    
@@ -252,19 +252,19 @@ div.widget.project-support div.tagmark {
 }
 
 div.widget.project-support div.tagmark.green {
-    background:url('/view/css/project/long_tagmark_green.png') left top no-repeat;
+    background:url('../../project/long_tagmark_green.png') left top no-repeat;
 }
 
 div.widget.project-support div.tagmark.red {
-    background:url('/view/css/project/long_tagmark_red.png') left top no-repeat;
+    background:url('../../project/long_tagmark_red.png') left top no-repeat;
 }
 
 div.widget.project-support div.tagmark.violet {
-    background:url('/view/css/project/long_tagmark_violet.png') left top no-repeat;
+    background:url('../../project/long_tagmark_violet.png') left top no-repeat;
 }
 
 div.widget.project-support div.tagmark.grey {
-    background:url('/view/css/project/long_tagmark_grey.png') left top no-repeat;
+    background:url('../../project/long_tagmark_grey.png') left top no-repeat;
 }
 
 /* tipografia pequeña para que quepa todo */

@@ -71,10 +71,13 @@ elseif (file_exists('live-settings.php')) // versioned
     require 'live-settings.php';
 else
     die(<<<EOF
-Setting file <strong>local-settings.php</strong> is not found, crete this file on the document root.<br />
+Setting file <strong>local-settings.php</strong> is not found, create this file on the document root.<br />
 Use the following code with the correct values for your goteo instance.<br />
 <pre>
 &lt;?php
+// Application path
+define('PATH', '');
+
 // Metadata
 define('GOTEO_META_TITLE', '--meta-title--');
 define('GOTEO_META_DESCRIPTION', '--meta-description--');

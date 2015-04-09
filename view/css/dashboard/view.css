@@ -203,19 +203,19 @@ body.dashboard div#main div.widget.gestrew div.reward.last{margin-right:0;}
 body.dashboard div#main div.widget.gestrew div.reward div.orden{color:#fff;display:inline-block;font-weight:bold;font-size:13pt;background-color:#e7e7e7;border:2px solid #a7a9ac;color:#a7a9ac;width:20px;text-align:center;}
 body.dashboard div#main div.widget.gestrew div.reward span.aporte{color: #96238F;display: inline-block;font-size: 8pt;text-transform: uppercase;line-height:22px;}
 body.dashboard div#main div.widget.gestrew div.reward span.num{font-size:12pt;}
-body.dashboard div#main div.widget.gestrew div.reward span.aporte > span.euro{ background:url('/view/css/euro/violet/m.png') no-repeat; height:20px; width:20px;display:inline-block;}
+body.dashboard div#main div.widget.gestrew div.reward span.aporte > span.euro{ background:url('../euro/violet/m.png') no-repeat; height:20px; width:20px;display:inline-block;}
 body.dashboard div#main div.widget.gestrew div.reward span.cofinanciadores{color:#40509F;display:block;text-transform:uppercase;margin-left:29px;font-size:8pt;line-height:20px;}
 body.dashboard div#main div.widget.gestrew div.reward div.tiporec{display:block;border-bottom:#8D878E 1px solid;margin-bottom:5px;}
 body.dashboard div#main div.widget.gestrew div.reward ul { list-style: none outside none; padding:0px; margin: 0px 0px 3px 0px; float:none; font-size:12px; }
 body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li { background:none no-repeat scroll 0px 0px transparent; padding: 0px 0px 0px 29px; min-height: 34px; }
-body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.file { background-image: url('/view/css/icon/s/file.png'); }
-body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.money { background-image: url('/view/css/icon/s/money.png'); }
-body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.code { background-image: url('/view/css/icon/s/code.png'); }
-body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.service { background-image: url('/view/css/icon/s/service.png'); }
-body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.manual { background-image: url('/view/css/icon/s/manual.png'); }
-body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.product { background-image: url('/view/css/icon/s/product.png'); }
-body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.design { background-image: url('/view/css/icon/s/design.png'); }
-body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.other { background-image: url('/view/css/icon/s/other.png'); }
+body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.file { background-image: url('../icon/s/file.png'); }
+body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.money { background-image: url('../icon/s/money.png'); }
+body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.code { background-image: url('../icon/s/code.png'); }
+body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.service { background-image: url('../icon/s/service.png'); }
+body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.manual { background-image: url('../icon/s/manual.png'); }
+body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.product { background-image: url('../icon/s/product.png'); }
+body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.design { background-image: url('../icon/s/design.png'); }
+body.dashboard div#main div.widget.gestrew div.reward div.tiporec ul li.other { background-image: url('../icon/s/other.png'); }
 body.dashboard div#main div.widget.gestrew div.reward span.recompensa{color:#8D878E;font-size:12px;}
 body.dashboard div#main div.widget.gestrew div.reward a.green{bottom:5px;left:13px;width:160px;padding: 0.3em 1.3em;}
 body.dashboard div#main div.widget.gestrew div.reward div.contenedorrecompensa{height:67px; overflow:hidden;}
@@ -230,7 +230,7 @@ body.dashboard div.widget.gestrew div.filters{height:auto;overflow:auto}
 body.dashboard div.widget.gestrew div.filters ul{list-style:none;clear:right;margin-top:0;margin-left:10px;padding-left:0;}
 body.dashboard div.widget.gestrew div.filters ul li{display:inline-block;}
 body.dashboard div.widget.gestrew div.filters ul li a{text-decoration:none;font-size:9pt;}
-body.dashboard div.widget.gestrew div.filters ul li.current a{background:url('/view/css/arrow-down.png') no-repeat left;padding-left:15px;}
+body.dashboard div.widget.gestrew div.filters ul li.current a{background:url('../arrow-down.png') no-repeat left;padding-left:15px;}
 body.dashboard div.widget.gestrew div.filters ul li a:hover{color:#20B3B2;}
 
 .disabled{color:#cccccc;}
@@ -251,7 +251,7 @@ body.dashboard div#invests-list div.investor div.left span.pendiente{color:#f00;
 /* Custom checkbox in investors list*/
 body.dashboard div#invests-list div.investor div.recompensas input[type="checkbox"]{height:16px;width:16px;float:left;position:absolute;left:0;opacity:0;margin:0;padding:0}
 body.dashboard div#invests-list div.investor div.recompensas label{line-height:16px;padding:0 0 0 20px}
-body.dashboard div#invests-list div.investor div.recompensas input + label{background:url('/view/css/dashboard/gr_custom-inputs.png') 0 -1px no-repeat;height:18px;}
+body.dashboard div#invests-list div.investor div.recompensas input + label{background:url('../dashboard/gr_custom-inputs.png') 0 -1px no-repeat;height:18px;}
 body.dashboard div#invests-list div.investor div.recompensas input[type=checkbox]:checked + label{background-position:0 -81px}
 body.dashboard div#invests-list div.investor div.recompensas input[type=checkbox]:hover:checked + label,body.dashboard div#invests-list div.investor div.recompensas input[type=checkbox]:focus:checked + label,body.dashboard div#invests-list div.investor div.recompensas input[type=checkbox]:checked + label:hover,body.dashboard div#invests-list div.investor div.recompensas input[type=checkbox]:focus:checked + label{background-position:0 -101px}
 
@@ -268,7 +268,7 @@ input[type=checkbox]:disabled:checked + label,input[type=checkbox]:hover:disable
 /* Custom checkbox in comment box*/
 body.dashboard div#colective-messages input[type="checkbox"]{height:16px;width:16px;float:left;position:absolute;left:0;opacity:0;margin:0;padding:0}
 body.dashboard div#colective-messages label{float:left;line-height:16px;padding:0 0 0 20px; margin-right:45px; }
-body.dashboard div#colective-messages input + label{background:url('/view/css/dashboard/gr_custom-inputs2.png') 0 -1px no-repeat;height:16px}
+body.dashboard div#colective-messages input + label{background:url('../dashboard/gr_custom-inputs2.png') 0 -1px no-repeat;height:16px}
 body.dashboard div#colective-messages input[type=checkbox]:checked + label{background-position:0 -81px}
 body.dashboard div#colective-messages input[type=checkbox]:hover:checked + label,body.dashboard div#colective-messages input[type=checkbox]:focus:checked + label,body.dashboard div#colective-messages input[type=checkbox]:checked + label:hover,body.dashboard div#colective-messages input[type=checkbox]:focus:checked + label{background-position:0 -101px}
 
@@ -288,7 +288,7 @@ body.dashboard div#colective-messages  div#comment{width:657px;margin-left:20px;
 body.dashboard div#colective-messages  div#checks p{height: auto;line-height: 20px;margin-bottom: 3px;overflow: auto;font-size:8pt;}
 
 /*comment box*/
-body.dashboard div#colective-messages div#bocadillo{background: url('/view/css/bocadillo.jpg') no-repeat scroll 0 0 transparent;height: 51px;position: absolute;width: 56px;}
+body.dashboard div#colective-messages div#bocadillo{background: url('../bocadillo.jpg') no-repeat scroll 0 0 transparent;height: 51px;position: absolute;width: 56px;}
 body.dashboard div#colective-messages textarea{background-color: #DCEEDF;border: 1px solid #2EAB58;clear: right;display: block;float: left;margin: -1px;margin-left:55px;height: 50px;padding: 0.3em 0;resize: none;width: 600px;}
 body.dashboard div#colective-messages a.preview{clear: left;color: #2EAB58;float: left;font-weight: bold;left: 52px;position: relative;text-decoration: none;text-transform: uppercase;top: 10px;}
 body.dashboard div#colective-messages button{font-weight: bold;padding: 5px 20px;float: right;margin-top:20px;}

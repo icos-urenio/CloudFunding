@@ -53,7 +53,7 @@ div.widget.user-about > div.webs ul li {
     padding-left: 30px;
     min-height: 2em;
     line-height: 2em;
-    background: url('/view/css/social/url.png') no-repeat left center;
+    background: url('../../social/url.png') no-repeat left center;
     margin: 0 0 10px;
 }
 

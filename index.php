@@ -17,7 +17,7 @@
  *  along with Goteo.  If not, see <http://www.gnu.org/licenses/agpl.txt>.
  *
  */
-
+ 
 use Goteo\Core\Resource,
     Goteo\Core\Error,
 	Goteo\Core\Registry,
@@ -44,10 +44,10 @@ require_once 'library/i18n/Lang.php';
 /*
  * Pagina de en mantenimiento
  */
-if (GOTEO_MAINTENANCE === true && $_SERVER['REQUEST_URI'] != '/about/maintenance' 
+if (GOTEO_MAINTENANCE === true && $_SERVER['REQUEST_URI'] != PATH . '/about/maintenance' 
      && !isset($_POST['Num_operacion'])
     ) {
-    header('Location: /about/maintenance');
+    header('Location: ' . PATH . '/about/maintenance');
 }
 
 // Include path
@@ -112,6 +112,11 @@ Registry::set('locale', $locale);
 
 // Get URI without query string
 $uri = strtok($_SERVER['REQUEST_URI'], '?');
+
+// Strip application path
+if (defined('PATH')) {
+	$uri = preg_replace('@^' . preg_quote(PATH) . '@', '', $uri);
+}
 
 // Get requested segments
 $segments = preg_split('!\s*/+\s*!', $uri, -1, \PREG_SPLIT_NO_EMPTY);
@@ -180,6 +185,11 @@ try {
 
             ob_end_clean();
 
+            // Add application path
+            if (defined('PATH') && is_object($result) && $result->getMIME() == 'text/html') {
+                $result = addPath($result);
+            }
+            
             if ($result instanceof Resource\MIME) {
                 header("Content-type: {$result->getMIME()}");
             }
@@ -208,4 +218,9 @@ try {
 
     // Default error (500)
     include "view/error.html.php";
+}
+
+function addPath($str) {
+    $str = preg_replace('@(href|action|src)\s?=\s?("|\')(/[^"\']*("|\'))@', '\1=\2' . PATH . '\3', $str);
+    return $str;
 }

@@ -22,7 +22,7 @@ div.project-message{
 }
 
 div.project-message div#bocadillo{
-	background:url('/view/css/bocadillo.jpg') no-repeat;
+	background:url('../../bocadillo.jpg') no-repeat;
 	position:absolute;
 	width: 50px;
 	height: 50px;

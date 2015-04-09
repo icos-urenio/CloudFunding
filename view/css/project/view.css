@@ -161,18 +161,18 @@ body.project-show div.project-menu ul li a {
     text-transform: uppercase;
     text-decoration: none;
     height: 28px;
-    background-image: url('/view/css/project/view/menu/regular_menu.png');
+    background-image: url('../project/view/menu/regular_menu.png');
     background-position: left top !important;
     background-repeat: repeat-x;
 	font-size:11px;	
 }
 
 body.project-show div.project-menu ul li.active a {
-    background-image: url('/view/css/project/view/menu/hover_menu.png');
+    background-image: url('../project/view/menu/hover_menu.png');
 }
 
 body.project-show div.project-menu ul li.show a {
-    background-image: url('/view/css/project/view/menu/active_menu.png') !important;
+    background-image: url('../project/view/menu/active_menu.png') !important;
     background-repeat: no-repeat !important;
 }
 

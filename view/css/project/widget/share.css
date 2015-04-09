@@ -62,13 +62,13 @@ div.widget.project-share li a {
 }
 
 div.widget.project-share li.twitter {
-    background-image: url('/view/css/social/twitter.png');    
+    background-image: url('../../social/twitter.png');    
 	position:absolute;
 	top:0;left:0;
 }
 
 div.widget.project-share li.facebook {
-    background-image: url('/view/css/social/facebook.png');
+    background-image: url('../../social/facebook.png');
 	position:absolute;
 	top:30px;left:0;	
 }
@@ -91,21 +91,21 @@ div.widget.project-share li.proyecto a{
 }
 
 div.widget.project-share li.google {
-    background-image: url('/view/css/social/google.png');	
+    background-image: url('../../social/google.png');	
 }
 
 
 
 div.widget.project-share li.identica {
-    background-image: url('/view/css/social/identica.png');
+    background-image: url('../../social/identica.png');
 }
 
 div.widget.project-share li.url {
-    background-image: url('/view/css/social/url.png'); 
+    background-image: url('../../social/url.png'); 
 }
 
 div.widget.project-share li.embed {
-    background-image: url('/view/css/social/embed.png');
+    background-image: url('../../social/embed.png');
 }
 
 div.widget.project-share li.url span,

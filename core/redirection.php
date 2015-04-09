@@ -31,6 +31,12 @@ namespace Goteo\Core {
 
         public function __construct ($url, $code = self::TEMPORARY) {
 
+            if (defined('PATH')) {
+                if (!preg_match('@^http@', $url) && !preg_match('@^' . preg_quote(PATH) . '@', $url)) {
+                    $url = PATH . $url;
+                }
+            }
+
             $this->url = $url;
             parent::__construct($code);
 

@@ -78,7 +78,7 @@ div.superform > div.hint h4,
 div.superform > div.hint blockquote {    
     background-color: #ffffff;
 /*
-    background: url('/view/css/superform/guide.png') 20px 20px;
+    background: url('superform/guide.png') 20px 20px;
     padding-left: 60px;
 */
     padding: 20px;    

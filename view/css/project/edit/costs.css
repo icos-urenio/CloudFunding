@@ -39,15 +39,15 @@ body.project-edit div#main.costs div.superform li.element.cost div.cost {
     min-height: 32px;
 }
 body.project-edit div#main.costs div.superform li.element.cost div.task {
-    background-image: url('/view/css/icon/m/task.png');
+    background-image: url('../../icon/m/task.png');
 }
 
 body.project-edit div#main.costs div.superform li.element.cost div.structure {
-    background-image: url('/view/css/icon/m/structure.png');
+    background-image: url('../../icon/m/structure.png');
 }
 
 body.project-edit div#main.costs div.superform li.element.cost div.material {
-    background-image: url('/view/css/icon/m/material.png');
+    background-image: url('../../icon/m/material.png');
 }
 
 body.project-edit div#main.costs div.superform li.element.cost div.description {
@@ -119,15 +119,15 @@ body.project-edit div#main.costs div.superform li.element.editcost li.cost-type 
     line-height: 32px;
 }
 body.project-edit div#main.costs div.superform li.element.editcost li.task div.contents {
-    background-image: url('/view/css/icon/m/task.png');
+    background-image: url('../../icon/m/task.png');
 }
 
 body.project-edit div#main.costs div.superform li.element.editcost li.structure div.contents {
-    background-image: url('/view/css/icon/m/structure.png');
+    background-image: url('../../icon/m/structure.png');
 }
 
 body.project-edit div#main.costs div.superform li.element.editcost li.material div.contents {
-    background-image: url('/view/css/icon/m/material.png');
+    background-image: url('../../icon/m/material.png');
 }
 
 body.project-edit div#main.costs div.superform li.element.editcost div.children li.element.cost-amount > div.contents > input {
@@ -136,7 +136,7 @@ body.project-edit div#main.costs div.superform li.element.editcost div.children 
     min-width: 3em;
     float: left;
     padding-right: 2em;
-    background-image: url('/view/css/euro/m.png');    
+    background-image: url('../../euro/m.png');    
     background-repeat: no-repeat;
     background-position: 3.7em center;
     font-size: 16px;

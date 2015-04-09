@@ -216,7 +216,7 @@ div.widget.user-supporters .supporters ul li dl dd.worthcracy ul li > strong {
     left: 50%;
     margin-left: -100px;
     text-align: center;
-    background: url('/view/css/worth/beak.png') no-repeat center top;
+    background: url('../../worth/beak.png') no-repeat center top;
     padding-top: 6px;
 }
 

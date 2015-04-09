@@ -321,19 +321,19 @@ ul.navi li.next {
 
 
 ul.navi li.prev a {
-	background: url('/view/css/small_arrowslider-sprt.png') scroll no-repeat 0 0;
+	background: url('small_arrowslider-sprt.png') scroll no-repeat 0 0;
 }
 
 ul.navi li.prev.active a {
-	background: url('/view/css/small_arrowslider-sprt.png') scroll no-repeat 0 -32px;
+	background: url('small_arrowslider-sprt.png') scroll no-repeat 0 -32px;
 }
 
 ul.navi li.next a {
-	background: url('/view/css/small_arrowslider-sprt.png') scroll no-repeat 0 -16px;
+	background: url('small_arrowslider-sprt.png') scroll no-repeat 0 -16px;
 }
 
 ul.navi li.next.active a {
-	background: url('/view/css/small_arrowslider-sprt.png') scroll no-repeat 0 -48px;
+	background: url('small_arrowslider-sprt.png') scroll no-repeat 0 -48px;
 }
 /** fin navi box&arrows**/
 
@@ -344,18 +344,18 @@ div.widget.blog-comment button.green{float:right;
 	margin-top: 25px;
 	margin-bottom: 5px;
 }
-div.widget.blog-comment div#bocadillo{background:url('/view/css/bocadillo.jpg') no-repeat;position:absolute;width: 50px;	height: 50px;
+div.widget.blog-comment div#bocadillo{background:url('bocadillo.jpg') no-repeat;position:absolute;width: 50px;	height: 50px;
 	margin-top: 8px;
 }
 
 /* = enlace para volver arriba
 *******************************/
-a.up{display:inline-block;padding-left:15px;margin-left:18px; background:url('/view/css/arrow-up3.png') no-repeat left; line-height: 20px;
+a.up{display:inline-block;padding-left:15px;margin-left:18px; background:url('arrow-up3.png') no-repeat left; line-height: 20px;
 	font-size: 10px;
 	text-decoration: none;
 	color: #9f9f9f;
 	margin-bottom: 40px;
 }
-a.up:hover{background:url('/view/css/arrow-up.png') no-repeat left;
+a.up:hover{background:url('arrow-up.png') no-repeat left;
 	color: #20b3b2;
 }

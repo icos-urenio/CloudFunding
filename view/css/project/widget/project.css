@@ -73,19 +73,19 @@ div.widget.project div.image div.tagmark {
 }
 
 div.widget.project div.image div.tagmark.green {
-    background:url('/view/css/project/tagmark_green.png') 0 0 no-repeat;
+    background:url('../../project/tagmark_green.png') 0 0 no-repeat;
 }
 
 div.widget.project div.image div.tagmark.red {
-    background:url('/view/css/project/tagmark_red.png') 0 0 no-repeat;
+    background:url('../../project/tagmark_red.png') 0 0 no-repeat;
 }
 
 div.widget.project div.image div.tagmark.violet {
-    background:url('/view/css/project/tagmark_violet.png') 0 0 no-repeat;
+    background:url('../../project/tagmark_violet.png') 0 0 no-repeat;
 }
 
 div.widget.project div.image div.tagmark.grey {
-    background:url('/view/css/project/tagmark_grey.png') 0 0 no-repeat;
+    background:url('../../project/tagmark_grey.png') 0 0 no-repeat;
 }
 
 /* tipografia peque�a para que quepa todo */
@@ -293,7 +293,7 @@ div.widget.project div.meter div.obtained span.euro {
     line-height: 2000px;
     overflow: hidden;
     display: inline-block;
-    background:  url('/view/css/euro/violet/m.png') no-repeat center;
+    background:  url('../../euro/violet/m.png') no-repeat center;
     margin-bottom: -1px;
 }
 div.widget.project div.meter div.obtained span.percent {
@@ -476,12 +476,12 @@ div.widget.project div.meter dl span.euro {
     line-height: 2000px;
     overflow: hidden;
     display: inline-block;
-    background:  url('/view/css/euro/light-violet/s.png') no-repeat center;
+    background:  url('../../euro/light-violet/s.png') no-repeat center;
     margin-bottom: -1px;
 }
 
 div.widget.project div.meter dl .minimum span.euro {
-    background-image: url('/view/css/euro/violet/s.png');
+    background-image: url('../../euro/violet/s.png');
 }
 
 div.widget.project div.meter dl .days {
@@ -545,7 +545,7 @@ div.widget.project div.rewards ul li {
     line-height: 2000px;
     text-indent: 2000px;
     overflow: hidden;
-    background-image: url('/view/css/icon/s/blank.png');
+    background-image: url('../../icon/s/blank.png');
     opacity:0.60;
     filter:alpha(opacity=60);
 }
@@ -566,35 +566,35 @@ div.widget.project div.rewards ul li a {
 }
 
 div.widget.project div.rewards ul li.file  {
-    background-image: url('/view/css/icon/s/file.png');
+    background-image: url('../../icon/s/file.png');
 }
 
 div.widget.project div.rewards ul li.money {
-    background-image: url('/view/css/icon/s/money.png');
+    background-image: url('../../icon/s/money.png');
 }
 
 div.widget.project div.rewards ul li.code {
-    background-image: url('/view/css/icon/s/code.png');
+    background-image: url('../../icon/s/code.png');
 }
 
 div.widget.project div.rewards ul li.service {
-    background-image: url('/view/css/icon/s/service.png');
+    background-image: url('../../icon/s/service.png');
 }
 
 div.widget.project div.rewards ul li.manual  {
-    background-image: url('/view/css/icon/s/manual.png');
+    background-image: url('../../icon/s/manual.png');
 }
 
 div.widget.project div.rewards ul li.product {
-    background-image: url('/view/css/icon/s/product.png');
+    background-image: url('../../icon/s/product.png');
 }
 
 div.widget.project div.rewards ul li.design {
-    background-image: url('/view/css/icon/s/design.png');
+    background-image: url('../../icon/s/design.png');
 }
 
 div.widget.project div.rewards ul li.other {
-    background-image: url('/view/css/icon/s/other.png');
+    background-image: url('../../icon/s/other.png');
 }
 
 div.widget.project div.buttons {

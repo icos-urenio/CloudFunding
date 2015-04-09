@@ -92,7 +92,7 @@ div.widget.project-invest.address table tr td label {
     padding-left: 10px;
 }
 div.widget.project-invest #amount {
-    background: url('/view/css/euro/violet/l.png') no-repeat left center #E7E7E7;
+    background: url('../../euro/violet/l.png') no-repeat left center #E7E7E7;
     color: #96238F;
     padding-left: 40px;
     width: 100px;
@@ -132,7 +132,7 @@ div.widget.project-invest div.individual ul li.disabled label.amount {
 }
 
 div.widget.project-invest button.pay-tpv {
-    background: url('/view/css/button/tpv.gif') no-repeat 0 0 transparent;
+    background: url('../../button/tpv.gif') no-repeat 0 0 transparent;
     width: 178px;
     height: 35px;
     text-indent: 2000px;
@@ -140,7 +140,7 @@ div.widget.project-invest button.pay-tpv {
 }
 
 div.widget.project-invest button.pay-paypal {
-    background: url('/view/css/button/paypal.gif') no-repeat 0 0 transparent;
+    background: url('../../button/paypal.gif') no-repeat 0 0 transparent;
     width: 145px;
     height: 32px;
     text-indent: 2000px;

@@ -236,7 +236,7 @@ body.dashboard div#meter-big dl dd.reached {
 }
 
 body.dashboard div#meter-big dl .reached span.euro {
-    background-image: url('/view/css/euro/violet/s.png');
+    background-image: url('../../euro/violet/s.png');
 }
 
 body.dashboard div#meter-big dl .supporters {
@@ -266,12 +266,12 @@ body.dashboard div#meter-big dl span.euro {
     line-height: 2000px;
     overflow: hidden;
     display: inline-block;
-    background:  url('/view/css/euro/light-violet/s.png') no-repeat center;
+    background:  url('../../euro/light-violet/s.png') no-repeat center;
     margin-bottom: -1px;
 }
 
 body.dashboard div#meter-big dl .minimum span.euro {
-    background-image: url('/view/css/euro/violet/s.png');
+    background-image: url('../../euro/violet/s.png');
 }
 
 body.dashboard div#meter-big dl .days {
