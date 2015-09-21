@@ -1,35 +1,29 @@
-The code licensed here under the GNU Affero General Public License, version 3 [AGPL-3.0](http://www.gnu.org/licenses/agpl-3.0.html) has been developed by the Goteo team led by Platoniq and subsequently transferred to the Fundación Fuentes Abiertas, as detailed in http://www.goteo.org/about#info6
+# CloudFunding
+===================
 
-This is a web tool that allows the receipt, review and publishing of collective campaigns for their collective funding and the receiving of collaborations as well as the dynamic visualization of the support received, classification of initiatives and campaign tracking. The system also permits secure and distributed communication with users and between users, administration of highlighted projects on the home page and the creation of periodical publications such as blogs, a FAQ section and static pages.
+This is a fork of [Goteo/Goteo](https://github.com/Goteo/Goteo) crowdfunding platform. Original README in README_ORIGINAL.md
 
-It is a standard version of Goteo, except for the payment gateway, whose development and adaptation should be undertaken by those who implement it, corresponding to the specified license and without maintenance, legal or any other responsibility of the Fundación Fuentes Abiertas.
+CloudFunding has been developed within the European project STORM CLOUDS. Find out more at [http://stormclouds.eu/](http://stormclouds.eu/).
 
-This version is provided as is accessible from this repository without additional documentation beyond the technical requirements, currently without possibility of advice or customization in your installation nor dedication to solving technical problems by the Goteo development team.
+## License
+CloudFunding's source code is licensed under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl.html).
 
-To implement functional subdomains of the platform in Goteo autonomous node mode (ie,  hosted on the Fundación Fuentes Abiertas server and adapted to independently run by other organizations or groups that can ensure minimum joint resource correct operation) we recommend contacting us by the following e-mail: info [at] goteo.org
+## Installation
+* Create a database in your mysql server.
+* Import db/goteo_modified.sql to the database.
+* Copy the application directory to your web server.
+* Edit local-settings.php and add your mysql connection and other details.
+* Change the root password (/Goteo/dashboard/profile/access)
+* Make sure that mod_rewrite is enabled.
+* If you install the application in a directory different than "Goteo" change the directory name in the following line of the .htaccess file:
 
-Implementation instructions:
-- Upload repository files (except .sql and .doc)
-- Create a database and run the script /db/goteo.sql
-- Specify login credentials to the database in /config.php (GOTEO_DB_ constants *)
+    RewriteBase /Goteo/
 
-The technical details are in the /doc/plataforma_goteo.doc file
+## Default passwords
 
+root - login: root, password: root
 
-CREDITS 
-Development (conceptualization, information architecture, text, programming and interface design): 
-Susana Noguero, Olivier Schulbaum, Enric Senabre, Diego Bustamante, Julian Canaves, Ivan Verges
+## Changelog
 
-Translation of interface and texts
-Catalan: Mireia Pui and Enric Senabre 
-English: Liz Castro and Chris Pinchen 
-French: Charlotte Rautureau, Julien Bellanger, Thomas Bernardi, Marie-Paule Uwase, Olivier Heinry, Christophe Moille, Olivier Schulbaum, Salah Malouli, Roland Kossigan Assilevi
-
-Legal advice and data privacy: Jorge Campanillas and Alfonso Jorge Pacheco
-
-Other code writers: Jaume Alemany, Philipp Keweloh, Susanna Kosic, Marc Hortelano, Pedro Medina
-
-Developed with usage of: 
-	html, css, xml, 
-	javascript php, php PEAR packages, various licensed php classes, 
-	jquery and licensed jquery plugins (SlideJS, CKeditor, Tipsy, MouseWheel, jScrollPane, FancyBox, DatePicker )
+### Version 1.0a
+* Initial public release
